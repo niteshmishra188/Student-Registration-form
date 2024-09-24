@@ -1,0 +1,55 @@
+
+.row1 {
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: rgb(6, 186, 241);
+    color: brown;
+    font-style: normal;
+    font-size: 80px;
+}
+label{
+text-align: center;
+margin-left: 400px;
+/* padding: 30px; */
+font-size: 18px;
+font-family: verdana;
+font-weight: bold;
+}
+input{
+margin-left: 50px;
+padding: 3px;
+font-weight: bold;
+
+}
+body{
+background-color: rgb(138, 177, 177);
+}
+.photo{
+position: absolute;
+/* background-color: black;
+height: 200px;
+width: 200px; */
+margin-top: 150px;
+margin-left: 1100px;
+
+}
+
+/* Table data css */
+table{
+
+text-align: center;
+justify-content: center;
+display: inline-block;
+
+background-color: azure;
+
+}
+table>thead {
+font-weight: bold;
+font-size: x-large;
+}
+td{
+padding: 5px;
+font-weight: bold;
+}

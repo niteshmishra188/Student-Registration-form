@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmission form</title>
+    <link rel="icon" type="image-icon" href="Capture.png">
+    <link rel="stylesheet"  href="style.css">
+</head>
+
+<body>
+   
+    <form action="table.php" method="post" enctype="multipart/form-data">
+
+        <div class="main">
+
+            <div class="row1">STUDENTS DETAILS
+               
+            </div>
+            <hr style="height: 10px; background-color: cadetblue;">
+
+                <div class="file">
+                  <label > Photo:</label> 
+                    
+                    <input type="file" id="myfile" name="filename" style="margin-left: 100PX; " required >
+
+                </div>
+                <br>
+                <br>
+                
+                <label>Student Name:</label> 
+                  <input type="text" name="name" placeholder="Enter your name" required autofocus maxlength="20">
+                <br>
+                <br>
+                <label>Father's Name:</label> 
+                <input type="text" name="father" placeholder="Enter your father's name" required maxlength="20">
+                <br>
+                <br>
+                <label> Mother's Name:</label> 
+                <input type="text" name="mother" placeholder="Enter your mother's name" required maxlength="20">
+                <br>
+                <br>
+                <label>Address:</label> 
+                <textarea name="address" placeholder="Fill address" required style="margin-left: 100px;" style="margin-left: 120px; font-weight: bold;"></textarea>
+                <br>
+                <br>
+                <label>Gender:</label> 
+                <input type="radio" name="gender" value="M" required\>Male
+                <input type="radio" name="gender" value="F" required\>Female
+                <input type="radio" name="gender" value="O" required\>Other
+                <br>
+                <br>
+                <label>Date of Birth(DOB):</label> 
+                <input type="date" name="dob" value="" required>
+                <br>
+                <br>
+                <label> Email-id:</label> 
+                <input type="email" name="email" placeholder="email@xyz.com">
+                <br>
+                <br>
+                <label>Mobile-number:</label> 
+                <input type="tel" id="phone" name="mobile" placeholder="0123-45-6789" minlength="10"
+                    maxlength="10">
+                <br>
+                <br>
+                <label>COURSE:</label> 
+                <select name="course" id="select" style="margin-left: 100px;" style="margin-left: 120px; background-color: blue; font-weight: bold;">
+                    <option value="" selected>CHOOSE YOUR COURSE</option>
+                    <option value="DIPLOMA IN CSE">DIPLOMA IN CSE</option>
+                    <option value="DIPLOMA IN ME">DIPLOMA IN ME</option>
+                    <option value="DIPLOMA IN CIVIL">DIPLOMA IN CIVIL</option>
+                    <option value="DIPLOMA IN EE">DIPLOMA IN EE</option>
+                    <option value="OTHER">OTHER</option>
+
+                </select>
+<br>
+               <br>
+<br>
+                <input type="submit" value="Submit" name="submit" style="background-color: green; color: aliceblue; border: none; margin-left: 400px; border-radius: 10px; font-size: 15px; padding: 5px;">
+                <input type="reset" value="Reset" name="reset" style="background-color: red; margin-left: 100px; color: aliceblue; border: none; border-radius: 10px; font-size: 15px; padding: 5px">
+                <br>
+                <br>
+            <hr style="height: 10px; background-color: cadetblue;">
+
+            </form>
+          
+ </div>   
+<!-- table -->
+
+</body>
+</html>
